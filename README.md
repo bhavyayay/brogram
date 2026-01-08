@@ -5,77 +5,59 @@ Brogram is a lightweight, zero-friction fitness program that delivers a **30-exe
 
 ---
 
-## 🌐 Live Deployment
+# 🌐 LIVE DEPLOYMENT
 
-🔗 **Brogram Website:** https://brogram-workoutplan.netlify.app/
-
----
-
-## 🚀 Why Brogram?
-
-Fitness apps today often feel like SaaS platforms disguised as health tools:
-
-❌ onboarding flows  
-❌ log-in walls  
-❌ trackers & graphs  
-❌ upsells & subscriptions  
-❌ social feeds  
-❌ unnecessary gamification  
-
-Brogram asks a simple question:
-
-> “What if fitness didn’t need a tutorial?”
-
-So the experience is engineered around **low cognitive overhead** and **instant usability**, prioritizing:
-
-✔ minimal choices  
-✔ high clarity  
-✔ fast loading  
-✔ mobile friendliness  
+🔗 **https://brogram-workoutplan.netlify.app/**
 
 ---
 
-## ✨ Key Experience Principles
+# 🚀 WHY BROGRAM?
 
-> UI shouldn't compete with user discipline.
+Fitness apps today often behave like SaaS products:
 
-Brogram is built around 4 design pillars:
+❌ Onboarding  
+❌ Log-ins  
+❌ Trackers  
+❌ Subscriptions  
+❌ Feed Systems  
+❌ Gamification  
 
-1. **Simplicity**
-   - One page
-   - No onboarding
-   - No settings
-   - No account creation
+Brogram asks:
 
-2. **Frugality**
-   - Minimal CSS, lightweight render
-   - No external libraries for UI burden
-   - Zero images for unnecessary payload
+> **“What if fitness didn’t need a tutorial?”**
 
-3. **Actionability**
-   - Each workout is consumable in seconds
-   - Clear naming & grouping
-   - Beginner-friendly language
+It prioritizes:
 
-4. **Focus**
-   - Pure content, zero noise
-   - “Scroll → See → Do” interaction loop
+✔ Low cognitive overhead  
+✔ Fast consumption  
+✔ Immediate usability  
+✔ Mobile-first clarity  
 
 ---
 
-## 🎯 Feature Overview
+# ✨ EXPERIENCE PRINCIPLES
+
+> _UI shouldn’t compete with user discipline._
+
+1. **Simplicity** — single page, zero onboarding  
+2. **Frugality** — lightweight CSS, no UI bloat  
+3. **Actionability** — clear, scannable workouts  
+4. **Focus** — “Scroll → See → Do” execution loop  
+
+---
+
+# 🎯 FEATURE OVERVIEW
 
 ✔ 30 curated workouts  
-✔ Clean progressive routine  
-✔ Beginner-friendly copy  
-✔ Mobile responsive layout  
-✔ Extremely fast loading  
-✔ Single-scroll model  
-✔ Zero ads, zero clutter  
+✔ Beginner-friendly explanations  
+✔ Mobile responsive  
+✔ Extremely fast load  
+✔ No clutter, no ads  
+✔ No login friction  
 
 ---
 
-## 🧱 Tech Stack
+# 🧱 TECH STACK
 
 | Layer | Choice |
 |---|---|
@@ -86,91 +68,88 @@ Brogram is built around 4 design pillars:
 
 ---
 
-## 🧩 Architectural Overview
+# 🧩 ARCHITECTURE
 
 ```
 
 src/
 ├─ components/
-│   └─ Layout.jsx        # Shared header & footer
-├─ App.jsx               # Main workout interface
-├─ index.css             # UI styling & layout
-public/                   # Static assets
+│   └─ Layout.jsx
+├─ App.jsx
+├─ index.css
+public/
 
 ````
 
-React was chosen for:
+React enables:
 
-- declarative UI composition
-- reusable layout structure
-- scalable future additions (filters, timers, progress tracking)
-
----
-
-## 🧠 Product Thinking & Intent
-
-Brogram treats **fitness like a utility**, not a platform.
-
-It targets a specific persona:
-
-> people who don’t need motivation — they need structure without friction.
-
-This project explores questions like:
-
-- *How much UI can be removed before functionality suffers?*
-- *Does removing decisions increase compliance?*
-- *Can clarity outperform gamification?*
+- composable UI  
+- future extensibility  
+- clean structure for additions  
 
 ---
 
-## 🏗️ Deployment & Performance Notes
+# 🧠 PRODUCT THINKING
 
-- Hosted on Netlify for low-latency static delivery
-- No server dependencies → near-zero failure surface
-- Tiny bundle size → instant time-to-interact
+Brogram treats **fitness like a utility**, not a gamified platform.
 
----
+Persona examined:
 
-## 🚀 Roadmap & Vision
+> **Users who already have discipline, but need structure.**
 
-To evolve Brogram from a static plan to an adaptive tool:
+This project explores:
 
-⬜ Difficulty filters (Beginner / Intermediate / Advanced)  
-⬜ Timer & rest period integration  
-⬜ Streak tracking  
-⬜ Progressive overload suggestion system  
-⬜ GIF / Video demonstrations  
-⬜ Workout replacements for injuries  
-⬜ Offline/PWA support  
-⬜ Social—but opt-in, not forced  
+- Can clarity beat motivation?  
+- Can fewer choices increase compliance?  
+- How much UI can be removed before usability breaks?  
 
 ---
 
-## 🧩 Trade-Offs Made
+# 🏗️ DEPLOYMENT NOTES
 
-| Decision | Trade-Off |
+- Hosted on **Netlify**
+- No server required → fewer failure points
+- Small bundle size → near-instant TTI
+- Ideal for low bandwidth & mobile usage
+
+---
+
+# 🚀 ROADMAP & FUTURE VISION
+
+Planned capabilities:
+
+⬜ Difficulty Filters  
+⬜ Workout Timers  
+⬜ Streak Tracking  
+⬜ Skill Levels (Beginner → Pro)  
+⬜ Exercise Replacements  
+⬜ Media Demo (GIF/Video)  
+⬜ Offline/PWA Mode  
+⬜ Optional Social Layer  
+
+---
+
+# 🧩 TRADE-OFF DECISIONS
+
+| Optimization | Trade-Off |
 |---|---|
-| No login | No personalized data |
-| No database | No progress history |
-| Single page | No routing complexity |
-| No images/media | Lower aesthetic richness |
-| Custom CSS | No prebuilt component speed |
-
-These were intentional to maximize **speed, clarity, & accessibility**.
+| No login | No personalization |
+| No DB | No history tracking |
+| Single page | No routing |
+| No images | Lower visual richness |
+| Custom CSS | No pre-built UI speed |
 
 ---
 
-## 🧘 Motivation
+# 🧘 MOTIVATION
 
-Brogram was built as an experiment in:
+Because the hardest part of working out isn’t the push-up — **it’s starting**.
 
-> **frictionless digital behavior**
-
-Because the hardest part of working out isn’t the workout — it’s starting.
+Brogram reduces surface friction so consistency becomes easier than procrastination.
 
 ---
 
-## 📦 Local Setup for Developers
+# 📦 LOCAL DEVELOPMENT
 
 ```bash
 git clone https://github.com/bhavyayay/brogram
@@ -181,20 +160,22 @@ npm run dev
 
 ---
 
-## 🤝 Contributions Welcome
+# 🤝 CONTRIBUTIONS
 
-Ideas, PRs & feature proposals are appreciated — from UI enhancements to workout expansion.
-
----
-
-## 📄 License
-
-MIT — open and community-friendly.
+Open to UI improvements, feature additions, UX refinements, or workout expansion.
 
 ---
 
-## 👩‍💻 Creator
+# 📄 LICENSE
 
-Built with intention by **Bhavya**
+MIT — open to use, modify, and extend.
 
-> “Fitness doesn’t need to be complex. Consistency is the real feature.”
+---
+
+# 👩‍💻 BUILT BY
+
+**Bhavya**
+
+> *“Fitness doesn’t need complexity. Consistency is the real feature.”*
+
+```
