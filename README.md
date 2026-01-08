@@ -1,5 +1,7 @@
 ```markdown
-# 🏋️‍♂️ BROGRAM — When Fitness Meets Minimalism
+<h1 style="font-size: 3rem; font-weight: 800; text-align: center;">
+🏋️‍♂️ BROGRAM — When Fitness Meets Minimalism
+</h1>
 
 Brogram is a lightweight, zero-friction fitness program that delivers a **30-exercise workout plan** in a clean, distraction-free interface — designed for users who want **action instead of onboarding** and **clarity instead of complexity**.
 
@@ -179,3 +181,4 @@ MIT — open to use, modify, and extend.
 > *“Fitness doesn’t need complexity. Consistency is the real feature.”*
 
 ```
+
