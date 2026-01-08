@@ -156,8 +156,6 @@ cd brogram
 npm install
 npm run dev
 
----
-
 # 🤝 CONTRIBUTIONS
 
 Open to UI improvements, feature additions, UX refinements, or workout expansion.
