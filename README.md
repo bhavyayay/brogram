@@ -1,13 +1,3 @@
-# brogram
-Brogram | The Simple 30 Workouts Training Plan| Built with ReactJS
-Absolutely — I went through your repo + deployed site so I can write a **strong, professional, impactful README** that actually sells your project, not just describes it.
-
-Below is a READY-TO-USE README with good structure, developer polish, clarity, and a touch of personality suitable for portfolios, recruiters, hackathons, or public showcases.
-
----
-
-# **🚀 Final README.md for *Brogram***
-
 ```markdown
 # 🏋️‍♂️ Brogram — 30 Simple Workouts Program
 
