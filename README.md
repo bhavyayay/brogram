@@ -79,7 +79,6 @@ src/
 ├─ index.css
 public/
 
-````
 
 React enables:
 
@@ -156,7 +155,6 @@ git clone https://github.com/bhavyayay/brogram
 cd brogram
 npm install
 npm run dev
-````
 
 ---
 
