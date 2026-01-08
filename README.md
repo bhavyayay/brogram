@@ -156,23 +156,16 @@ cd brogram
 npm install
 npm run dev
 
-# 🤝 CONTRIBUTIONS
+🤝 CONTRIBUTIONS
 
 Open to UI improvements, feature additions, UX refinements, or workout expansion.
 
----
-
-# 📄 LICENSE
+📄 LICENSE
 
 MIT — open to use, modify, and extend.
 
----
+👩‍💻 BUILT BY
 
-# 👩‍💻 BUILT BY
+Bhavya
 
-**Bhavya**
-
-> *“Fitness doesn’t need complexity. Consistency is the real feature.”*
-
-```
-
+“Fitness doesn’t need complexity. Consistency is the real feature.”
