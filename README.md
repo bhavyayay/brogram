@@ -1,4 +1,3 @@
-```markdown
 <h1 style="font-size: 3rem; font-weight: 800; text-align: center;">
 🏋️‍♂️ BROGRAM — When Fitness Meets Minimalism
 </h1>
@@ -72,7 +71,6 @@ It prioritizes:
 
 # 🧩 ARCHITECTURE
 
-```
 
 src/
 ├─ components/
